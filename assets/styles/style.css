@@ -1,3 +1,76 @@
+.link {
+    text-decoration: none;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
 .nav-item {
     padding-right: 50px;
+}
+
+.l2 {
+    background-color: #66c478;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.head h5 {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.head2 {
+    color: white;
+    background-color: #66c478;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+/* tentang */
+.ttg {
+    padding: 20px;
+}
+
+.berita {
+    text-decoration: none;
+    margin: 50px;
+}
+
+.tentang h4 {
+    border: 2px solid #66c478;
+    color: #66c478;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    padding: 0 20px;
+    /* margin: 0 50%; */
+}
+
+/* video galeri */
+.banner {
+    background: #66c478;
+    background: -webkit-linear-gradient(to right, #62cf75);
+    background: linear-gradient(to right, #70ef9a, #1aa84a, #6dfa97);
+}
+
+.pb-video:hover {
+    background: #2c3e50;
+}
+
+.pb-video-frame {
+    transition: width 2s, height 2s;
+}
+
+.pb-video-frame:hover {
+    height: 230px;
 }

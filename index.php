@@ -10,23 +10,29 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/FontAwesome/css/all.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
 
+    </style>
 
     <title>Document</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top" id="ieu">
         <div class="container-fluid">
             <a class="navbar-brand" href="#Beranda">
                 <img src="assets/images/logo1.png" width="40" height="40" alt="IRMAS JAMI AL-HUDA">
             </a>
+            <h5>IRMAS Jami AL-HUDA</h5>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#ProfilM">Profil Mahasiswa</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#Beranda">Beranda</a>
                     </li>
@@ -43,13 +49,13 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Acara">Acara</a>
+                        <a class="nav-link text-dark" href="#Acara">Acara</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Program">Program</a>
+                        <a class="nav-link text-dark" href="#Program">Program</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Kontak">Kontak</a>
+                        <a class="nav-link text-dark" href="#Kontak">Kontak</a>
                     </li>
                 </ul>
             </div>
@@ -59,13 +65,13 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/images/bg1.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/images/bg1.png" height="720px" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/images/bg1.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/images/bg2.jpg" height="720px" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/images/bg1.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/images/bg3.jpg" height="720px" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -92,7 +98,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Endang Rahmat</h5>
                                         <p class="card-text">Ketua IRMAS Jami AL-HUDA </p> <br />
-                                        <p><a class="card-link text-dark" href="#">PROFILE</a></p>
+                                        <p><a class="card-link text-dark fw-bold" href="#">PROFILE</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -110,7 +116,7 @@
                                         <h5 class="card-title">Masjid Jami AL-HUDA Cianjur</h5>
                                         <p class="card-text">Jl. Panembong Girang, Mekarsari, Kec. Cianjur, Kabupaten
                                             Cianjur, Jawa Barat 43251</p>
-                                        <p><a class="card-link text-dark" href="#">DETAIL</a></p>
+                                        <p><a class="card-link text-dark fw-bold" href="#">DETAIL</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -276,9 +282,9 @@
                     </div>
                     <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-4">
                         <div class="col">
-                            <div class="card radius-15">
+                            <div class="card radius-15 rounded-4">
                                 <div class="card-body text-center">
-                                    <div class="p-4 border radius-15">
+                                    <div class="p-4 border radius-15 rounded-4">
                                         <img src="assets/images/ketuaIrmas.jpg" width="110" height="110"
                                             class="rounded-circle shadow" alt="">
                                         <h5 class="mb-0 mt-2">Endang Rahmat</h5>
@@ -291,11 +297,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card radius-15">
+                        <div class="col mb-3">
+                            <div class="card radius-15 rounded-4">
                                 <div class="card-body text-center">
-                                    <div class="p-4 border radius-15">
-                                        <img src="https://bootdey.com/img/Content/avatar/avatar7.png" width="110"
+                                    <div class="p-4 border radius-15 rounded-4">
+                                        <img src="assets/images/sekretaris.jpg" width="110"
                                             height="110" class="rounded-circle shadow" alt="">
                                         <h5 class="mb-0 mt-2">Muhammad Aji</h5>
                                         <p class="mb-2">Sekretaris</p>
@@ -307,11 +313,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card radius-15">
+                        <div class="col mb-3">
+                            <div class="card radius-15 rounded-4">
                                 <div class="card-body text-center">
-                                    <div class="p-4 border radius-15">
-                                        <img src="https://bootdey.com/img/Content/avatar/avatar7.png" width="110"
+                                    <div class="p-4 border radius-15 rounded-4">
+                                        <img src="" width="110"
                                             height="110" class="rounded-circle shadow" alt="">
                                         <h5 class="mb-0 mt-2">Nendi Maulana</h5>
                                         <p class="mb-2">Bendahara</p>
@@ -323,14 +329,78 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card radius-15">
+                        <div class="col mb-3">
+                            <div class="card radius-15 rounded-4">
                                 <div class="card-body text-center">
-                                    <div class="p-4 border radius-15">
-                                        <img src="https://bootdey.com/img/Content/avatar/avatar7.png" width="110"
+                                    <div class="p-4 border radius-15 rounded-4">
+                                        <img src="" width="110"
                                             height="110" class="rounded-circle shadow" alt="">
                                         <h5 class="mb-0 mt-2">...</h5>
                                         <p class="mb-2">Seksi peribadatan</p>
+                                        <div class="d-grid"> <a href="#"
+                                                class="btn btn-outline-success radius-15">Profil
+                                                Lengkap</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="card radius-15 rounded-4">
+                                <div class="card-body text-center">
+                                    <div class="p-4 border radius-15 rounded-4">
+                                        <img src="" width="110"
+                                            height="110" class="rounded-circle shadow" alt="">
+                                        <h5 class="mb-0 mt-2">...</h5>
+                                        <p class="mb-2">Seksi peribadatan</p>
+                                        <div class="d-grid"> <a href="#"
+                                                class="btn btn-outline-success radius-15">Profil
+                                                Lengkap</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="card radius-15 rounded-4">
+                                <div class="card-body text-center">
+                                    <div class="p-4 border radius-15 rounded-4">
+                                        <img src="" width="110"
+                                            height="110" class="rounded-circle shadow" alt="">
+                                        <h5 class="mb-0 mt-2">...</h5>
+                                        <p class="mb-2">Seksi Peralatan</p>
+                                        <div class="d-grid"> <a href="#"
+                                                class="btn btn-outline-success radius-15">Profil
+                                                Lengkap</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card radius-15 rounded-4">
+                                <div class="card-body text-center">
+                                    <div class="p-4 border radius-15 rounded-4">
+                                        <img src="" width="110"
+                                            height="110" class="rounded-circle shadow" alt="">
+                                        <h5 class="mb-0 mt-2">...</h5>
+                                        <p class="mb-2">Seksi Peralatan</p>
+                                        <div class="d-grid"> <a href="#"
+                                                class="btn btn-outline-success radius-15">Profil
+                                                Lengkap</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card radius-15 rounded-4">
+                                <div class="card-body text-center">
+                                    <div class="p-4 border radius-15 rounded-4">
+                                        <img src="" width="110"
+                                            height="110" class="rounded-circle shadow" alt="">
+                                        <h5 class="mb-0 mt-2">...</h5>
+                                        <p class="mb-2">Seksi Kebersihan</p>
                                         <div class="d-grid"> <a href="#"
                                                 class="btn btn-outline-success radius-15">Profil
                                                 Lengkap</a>
@@ -520,6 +590,85 @@
         </div>
     </section>
 
+    <section id="ProfilM">
+        <div class="container-fluid">
+            <div class="container" id="Profil">
+                <div class="head2">
+                    <h5 class="rounded">PROFIL Mahasiswa</h5>
+                </div>
+                <div class="main-body">
+                    <div class="row gutters-sm">
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex flex-column align-items-center text-center">
+                                        <img src="assets/images/sekretaris.jpg" alt="" width="150">
+                                        <div class="mt-3">
+                                            <h4>Muhammad Aji Solehdin</h4>
+                                            <p class="text-secondary mb-1">Teknik Informatika UNSUR</p>
+                                            <p class="text-muted font-size-sm">Cianjur-Jawa Barat</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <h6 class="mb-0">Nama</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            Muhammad Aji Solehudin
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <h6 class="mb-0">NPM</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            5520120012
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <h6 class="mb-0">Kelas</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            IF-A 2020
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <h6 class="mb-0">Lokasi/Alamat</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            Kp. Panembong Girang Desa Mekarsari RT03/RW04 Cianjur Jawa barat
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <h6 class="mb-0">E-mail</h6>
+                                        </div>
+                                        <div class="col-sm-9 text-secondary">
+                                            muhammadjisolehudin@gmail.com
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
         <div class="card border border-top-0" id="Kontak">
             <div class="card-body ">
                 <div class="container">
@@ -599,6 +748,7 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/script.js"></script>
 
 </body>
 
